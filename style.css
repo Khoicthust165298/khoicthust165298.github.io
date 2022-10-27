@@ -1,0 +1,79 @@
+.body {
+  background-image: url('https://f10-zpc.zdn.vn/6951847397938745698/7b1b51a5f76630386977.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.toast {
+  width: 375px !important;
+  height: 100px !important;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  right: 0 !important;
+}
+
+
+.text {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.bd {
+  border-color: red !important;
+}
+
+.heart {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+
+.cl-red {
+  color: red !important;
+}
+
+.back {
+  position: fixed;
+  top: 10px;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: ' ';
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-top: var(--bs-gutter-y);
+}
