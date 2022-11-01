@@ -12,8 +12,8 @@ $("#cancel").on("click", function () {
 });
 
 $("#loggin").click(() => {
-  if ($("#pass").val() == 1) {
-    logginInfo = 1;
+  if ($("#pass").val() == 12082022) {
+    logginInfo = 12082022;
     $(".mh1").hide("3000");
     $(".mh2").removeClass("d-none");
     $(".mh2").show("3000");
@@ -22,7 +22,7 @@ $("#loggin").click(() => {
     location.assign('/sieunhanmy.html');
   } else {
     $(".toast").toast("show");
-    $('.info').html('Mật khẩu không đúng')
+    $('.info').html('You forgot something? :)')
     $("#pass").val("");
     $(".form-control").addClass("bd");
   }
